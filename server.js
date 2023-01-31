@@ -1,7 +1,7 @@
 const express = require('express')
 
-const port = 3000
-const valueMultiplier = 1000
+const port = process.env.PORT || 3000
+const valueMultiplier = process.env.VALUE_MULTIPLIER || 1000
 
 const app = express()
 
